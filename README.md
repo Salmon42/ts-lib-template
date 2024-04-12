@@ -19,4 +19,4 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 * Add dependencies:
 	* dev `ts-node`
 	* dev `@types/node`
-	* dev `vite-plugin-dts`
+	* dev [`vite-plugin-dts`](https://www.npmjs.com/package/vite-plugin-dts)
