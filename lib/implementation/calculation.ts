@@ -1,9 +1,9 @@
 // Dummy implementation
 
-import { add } from "@/implementation/add"
-import { div } from "@/implementation/div"
-import { mul } from "@/implementation/mul"
-import { sub } from "@/implementation/sub"
+import { add } from "./add"
+import { div } from "./div"
+import { mul } from "./mul"
+import { sub } from "./sub"
 
 type Operator = '+' | '-' | '*' | '/'
 

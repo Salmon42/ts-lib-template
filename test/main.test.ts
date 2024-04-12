@@ -1,3 +1,3 @@
-import { calculation } from '@/calculation';
+import { calculation } from '@/implementation';
 
 console.log(calculation)
