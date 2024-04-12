@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
 
   "private": true,
   "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",

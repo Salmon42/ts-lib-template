@@ -7,6 +7,14 @@ import { sub } from "@/implementation/sub"
 
 type Operator = '+' | '-' | '*' | '/'
 
+/**
+ * Calculation docs
+ * 
+ * @param first - first operand
+ * @param second - second operand
+ * @param operator - our operator
+ * @returns result
+ */
 export const calculation = (first: number, second: number, operator: Operator) => {
 	switch (operator) {
 		case "+": return add(first, second)

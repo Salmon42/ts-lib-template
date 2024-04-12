@@ -6,11 +6,13 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
 	plugins: [
 		dts({
-			insertTypesEntry: true
+			insertTypesEntry: true,
+			rollupTypes: true,
 		})
 	],
   
 	build: {
+		sourcemap: true,
 		lib: {
 			entry: resolve(__dirname, 'lib/main.ts'),
 			fileName: 'index',
