@@ -1,8 +1,8 @@
 {
   "name": "ts-lib-template",
-  "private": true,
   "version": "0.0.2",
 
+  "private": true,
   "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",
   "author": {
     "name": "Andrej Hučko",
@@ -10,7 +10,6 @@
     "url": "https://github.com/Salmon42"
   },
 
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -19,11 +18,18 @@
     "prepublish": "node --no-warnings scripts/run-prepublish.js",
     "deploy": "node --no-warnings scripts/run-publish.js"
   },
+
+  "type": "module",
+
+  "dependencies": {},
+
   "devDependencies": {
     "@types/node": "^20.12.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.8.1"
-  }
+  },
+
+  "peerDependencies": {}
 }
