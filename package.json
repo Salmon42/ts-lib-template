@@ -1,7 +1,7 @@
 {
   "name": "ts-lib-template",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",
   "author": {
@@ -14,7 +14,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+
+    "prepublish": "node --no-warnings scripts/run-prepublish.js",
+    "deploy": "node --no-warnings scripts/run-publish.js"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",

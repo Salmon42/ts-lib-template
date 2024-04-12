@@ -23,13 +23,13 @@
     "paths": {
       "@/*": [
         "./lib/*",
-        "./test/*",
       ]
     }
   },
   "include": [
     "lib", 
     "test",
+    "scripts",
     "types/vite-env.d.ts"
   ]
 }
