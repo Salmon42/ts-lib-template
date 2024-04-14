@@ -60,3 +60,4 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 
 * Add Vitest
 	* `yarn add -D vitest`
+	* https://vitest.dev/guide/
