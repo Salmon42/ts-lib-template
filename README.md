@@ -24,7 +24,7 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 * Add `.editorconfig` file
 
 * [WIP] Add ESLint
-	* `yarn create @esling/config`
+	* `yarn create @eslint/config`
 		* "How would you like to use ESLint?" → 'to check syntax, find problems, enforce code style' → `style`
 		* "What type of modules does your project use?" → 'JS modules (import/export)' → `esm`
 		* "Which framework does your project use?" → 'None of these' → `none`
