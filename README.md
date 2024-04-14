@@ -39,6 +39,7 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 		* Add [`vite-plugin-eslint`](https://www.npmjs.com/package/vite-plugin-eslint)
 
 	* Variant 2
+		* [TypeScript ESLint Legacy Setup](https://typescript-eslint.io/getting-started/legacy-eslint-setup)
 		* Add dependencies
 			* [`yarn add -D eslint@8.57.0`](https://www.npmjs.com/package/eslint/v/8.57.0) (Last v8 version)
 			* [`yarn add -D @types-eslint`](https://www.npmjs.com/package/@types/eslint)
