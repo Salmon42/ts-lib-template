@@ -54,3 +54,6 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 	* Addition: Stylistic ESLint migration
 		* https://eslint.style/guide/migration
 		* `yarn add -D @stylistic/eslint-plugin`
+
+	* Helping reads:
+		* https://stackoverflow.com/questions/61720584/eslint-define-folder-in-config-file-ignore-all-but-include-only
