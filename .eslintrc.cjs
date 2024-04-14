@@ -15,9 +15,13 @@ module.exports = {
 		'dist',
 		"docs",
 
+		// Ignored patterns
+		'lib/**/*.d.ts',
+
 		// Ignored files
 		'.eslintrc.cjs',
 		'types/vite-env.d.ts',
+		'typedoc.config.cjs',
 	],
 
 	plugins: [

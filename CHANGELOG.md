@@ -1,6 +1,7 @@
 # Changelog
 
 * ...
+* `0.6.0` Boosted TypeDoc capabilities - added many plugins
 * `0.5.1` Try combination JS implementation with `d.ts` declaration file
 * `0.5.0` Milestone checkmark - working base TypeDoc
 * `0.4.0` Milestone checkmark - working base Vitest
