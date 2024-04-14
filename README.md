@@ -50,3 +50,7 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 				* Do not use any
 				* [`yarn add -D vite-plugin-eslint`](https://www.npmjs.com/package/vite-plugin-eslint) (This is unmaintained since 2022 but it does not matter. In this Pure-Library project, this is enough for now, maybe even unnecessary if we enforce linting as a separate command
 				* [`yarn add -D @nabla/vite-plugin-eslint`](https://www.npmjs.com/package/@nabla/vite-plugin-eslint) (official [vite-plugin-eslint](https://www.npmjs.com/package/vite-plugin-eslint) is unmaintained since 2022)
+
+	* Addition: Stylistic ESLint migration
+		* https://eslint.style/guide/migration
+		* `yarn add -D @stylistic/eslint-plugin`

@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-template",
-  "version": "0.2.5",
+  "version": "0.2.9",
   "private": true,
   "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",
   "author": {
@@ -21,6 +21,7 @@
   "dependencies": {},
 
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.7.0",
     "@types/eslint": "^8.56.9",
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.6.0",

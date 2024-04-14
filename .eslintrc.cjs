@@ -18,7 +18,8 @@ module.exports = {
 	],
 
 	plugins: [
-		'@typescript-eslint'
+		'@stylistic',
+		'@typescript-eslint',
 	],
 	extends: [
 		'eslint:recommended',
@@ -32,45 +33,55 @@ module.exports = {
 			['warn', { allow: ['warn', 'error', 'info'] }],
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
-		'no-unused-vars': 'off',
+		'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
 		'@typescript-eslint/no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
 
-		// TypeScript only
+		// ---- ---- TypeScript only
 		'@typescript-eslint/no-explicit-any': 'off',
+		'@stylistic/type-generic-spacing': ['warn'],
+		'@stylistic/type-named-tuple-spacing': ['warn'],
 
-		// Formatting
-		quotes: ['warn', 'single'],
-		semi: process.env.NODE_ENV === 'production' ? ['error', 'never'] : ['warn', 'never'],
+		// ---- ---- Code formatting
+		'@stylistic/semi': process.env.NODE_ENV === 'production' ? ['error', 'never'] : ['warn', 'never'],
+		'@stylistic/quotes': ['warn', 'single'],
+		'@stylistic/comma-dangle': ['warn', 'always-multiline'],
 
-		indent: 'off',
-		'@typescript-eslint/indent': [
-			process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+		'@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+		'@stylistic/no-trailing-spaces': ['warn'],
+		'@stylistic/spaced-comment': ['warn', 'always'],
+		'@stylistic/no-multi-spaces': ['warn'],
+		'@stylistic/space-before-function-paren': ['warn', 'never'],
+
+		'@stylistic/indent': [
+			'warn',
 			'tab',
 			{
 				'SwitchCase': 0,
-			},
+			}
 		],
 
-		'no-tabs': [
+		'@stylistic/no-tabs': [
 			'warn',
 			{
 				allowIndentationTabs: true,
+			}
+		],
+
+		'@stylistic/no-multiple-empty-lines': [
+			'warn',
+			{
+				max: 2,
+				maxBOF: 0,
+				maxEOF: 0
 			},
 		],
 
-		'comma-dangle': ['error', 'always-multiline'],
-
-		'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
-
-		'no-multiple-empty-lines': ['warn', { max: 2, maxBOF: 0, maxEOF: 0 }],
-		'no-trailing-spaces': ['warn'],
-		'spaced-comment': ['warn', 'always'],
-		'no-multi-spaces': ['warn'],
-		'padded-blocks': ['warn', 'never', { allowSingleLineBlocks: true }],
-		'space-before-function-paren': ['warn', 'never'],
-
-
-		// TODO: update formatting rules
-
+		'@stylistic/padded-blocks': [
+			'warn',
+			'never',
+			{
+				allowSingleLineBlocks: true,
+			}
+		],
 	}
 }
