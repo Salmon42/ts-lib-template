@@ -1,7 +1,7 @@
-import { ExampleData } from "./ExampleData";
+import { ExampleData } from './ExampleData'
 import { type SomeGenericType } from './generic'
 
 export {
 	ExampleData,
-	SomeGenericType
+	SomeGenericType,
 }

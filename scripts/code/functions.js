@@ -1,7 +1,8 @@
+//
+// Helper functions for scripts
+//
 
-/**
- * @param {string} msg 
- */
+/** @param {string} msg */
 export const print = (msg) => {
-	console.log(`---- ---- ${msg}`)
+	console.info(`---- ---- ${msg}`)
 }

@@ -3,8 +3,8 @@
 // Executes npm publish in the correct place
 //
 
-import fs from 'fs';
-import { execSync } from 'child_process';
+import fs from 'fs'
+import { execSync } from 'child_process'
 
 
 /**
@@ -17,7 +17,7 @@ export const publish = () => {
 
 	process.chdir('dist')
 	execSync('npm publish', {
-		stdio: ['ignore', 'inherit', 'inherit']
+		stdio: ['ignore', 'inherit', 'inherit'],
 	})
 
 	return true

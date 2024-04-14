@@ -1,5 +1,6 @@
-import { calculation } from '@/implementation';
+import { calculation } from '@/implementation'
 
-console.log(calculation)
+console.warn(calculation)
 
-const x = 1;
+// throws lint error now
+// const x = 1;

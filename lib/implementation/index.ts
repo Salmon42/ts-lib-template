@@ -5,5 +5,5 @@ import { sub } from './sub'
 import { calculation } from './calculation'
 
 export {
-	add, div, mul, sub, calculation
+	add, div, mul, sub, calculation,
 }

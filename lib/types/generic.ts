@@ -1,10 +1,9 @@
-
 /**
  * Some extensive information on this TS type
- * 
- * 
+ *
+ *
  * ```
- * 	whatever.ok
+ *  whatever.ok
  * ```
  */
 export type SomeGenericType<T> = {

@@ -1,4 +1,4 @@
-import { BaseNode } from "./BaseNode"
+import { BaseNode } from './BaseNode'
 
 /**
  * example node ifc
@@ -11,9 +11,8 @@ export type IExampleNode = {
  * example node class
  */
 export class ExampleNode extends BaseNode implements IExampleNode {
-
 	constructor(
-		public injection: string
+		public injection: string,
 	) {
 		super(injection, 'EXAMPLE')
 	}

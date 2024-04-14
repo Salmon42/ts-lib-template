@@ -6,10 +6,8 @@ import { ExampleData, SomeGenericType } from '@/types'
 
 
 // Trying to trigger ESLint
-
-const x = 1;
-console.log('ayy')
-
+// const x = 1
+// console.log('ayy');
 
 
 export {

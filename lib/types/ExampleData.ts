@@ -1,4 +1,3 @@
-
 /**
  * Something informative about ExampleData
  */
@@ -9,5 +8,5 @@ export type ExampleData = {
 
 export const ExampleData = (o?: Partial<ExampleData>): ExampleData => ({
 	num: o?.num ?? 0,
-	text: o?.text ?? ''
+	text: o?.text ?? '',
 })

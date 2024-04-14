@@ -1,7 +1,6 @@
 {
   "name": "ts-lib-template",
-  "version": "0.2.0",
-
+  "version": "0.2.5",
   "private": true,
   "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",
   "author": {
@@ -12,7 +11,9 @@
 
   "scripts": {
     "build": "tsc && vite build",
-    "deploy": "node --no-warnings scripts/run-publish.js"
+    "deploy": "node --no-warnings scripts/run-publish.js",
+    "lint": "eslint .",
+    "purge": "rm -rf dist/ node_modules/"
   },
 
   "type": "module",
@@ -20,11 +21,16 @@
   "dependencies": {},
 
   "devDependencies": {
+    "@types/eslint": "^8.56.9",
     "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "8.57.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.2.2",
+    "typescript": "^5.4.5",
     "vite": "^5.2.0",
-    "vite-plugin-dts": "^3.8.1"
+    "vite-plugin-dts": "^3.8.1",
+    "vite-plugin-eslint": "^1.8.1"
   },
 
   "peerDependencies": {}

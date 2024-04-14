@@ -1,7 +1,10 @@
+import { createRequire } from 'module'
 import { publish } from './code/publish.js'
 import { print } from './code/functions.js'
 import { prepublish } from './code/prepublish.js'
-import pkg from '../package.json' assert { type: "json" }
+
+export const require = createRequire(import.meta.url)
+const pkg = require('../package.json')
 
 print(`Publishing project ${pkg.name} v${pkg.version}`)
 const r1 = prepublish()
