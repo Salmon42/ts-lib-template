@@ -4,13 +4,16 @@ import { BASE_SPECIFIER } from '@/constants/nodes'
  * something something basenode
  */
 export class BaseNode {
-	private __classname: string
+	protected __classname: string
 
 	constructor(
 		public injection: string,
 		public specifier: string = BASE_SPECIFIER,
 	) {
-		this.__classname = this.constructor.name
+		// During minification build, the `this.constructor.name`
+		// gets scrapped and is transformed into different string
+		// (something unreadable)
+		this.__classname = 'BaseNode'
 		this.injection = injection
 		this.specifier = specifier
 	}

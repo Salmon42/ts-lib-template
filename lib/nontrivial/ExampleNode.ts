@@ -15,6 +15,7 @@ export class ExampleNode extends BaseNode implements IExampleNode {
 		public injection: string,
 	) {
 		super(injection, 'EXAMPLE')
+		this.__classname = 'ExampleNode'
 	}
 
 	doStuff(): void {

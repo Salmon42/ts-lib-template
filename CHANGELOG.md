@@ -1,6 +1,7 @@
 # Changelog
 
 * ...
+* `0.2.10` Updated Node classes
 * `0.2.9` Migrated to up-to-date variant of ESLint including Stylistic rules
 * `0.2.5` Added draft variant of ESLint, contains deprecated rules
 * `0.2.0` Milestone checkmark - working extended examples
