@@ -1,6 +1,7 @@
 # Changelog
 
 * ...
+* `0.4.0` Milestone checkmark - working base Vitest
 * `0.3.0` Milestone checkmark - working ESLint
 * `0.2.10` Updated Node classes
 * `0.2.9` Migrated to up-to-date variant of ESLint including Stylistic rules

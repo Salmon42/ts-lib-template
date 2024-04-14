@@ -5,11 +5,6 @@ import { BaseNode, ExampleNode, IExampleNode } from '@/nontrivial'
 import { ExampleData, SomeGenericType } from '@/types'
 
 
-// Trying to trigger ESLint
-// const x = 1
-// console.log('ayy');
-
-
 export {
 	calculation,
 	add,

@@ -23,8 +23,8 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 
 * Add `.editorconfig` file
 
-* [WIP] Add ESLint
-	* NON-WORKING Variant
+* Add ESLint
+	* Variant - ESLint v9 (DOES NOT WORK YET)
 		* `yarn create @eslint/config`
 			* "How would you like to use ESLint?" → 'to check syntax, find problems, enforce code style' → `style`
 			* "What type of modules does your project use?" → 'JS modules (import/export)' → `esm`
@@ -38,7 +38,7 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 				```
 		* Add [`vite-plugin-eslint`](https://www.npmjs.com/package/vite-plugin-eslint)
 
-	* Variant 2
+	* Variant - ESLint v8
 		* [TypeScript ESLint Legacy Setup](https://typescript-eslint.io/getting-started/legacy-eslint-setup)
 		* Add dependencies
 			* [`yarn add -D eslint@8.57.0`](https://www.npmjs.com/package/eslint/v/8.57.0) (Last v8 version)
@@ -57,3 +57,6 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 
 	* Helping reads:
 		* https://stackoverflow.com/questions/61720584/eslint-define-folder-in-config-file-ignore-all-but-include-only
+
+* Add Vitest
+	* `yarn add -D vitest`
