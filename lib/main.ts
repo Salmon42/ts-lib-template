@@ -1,4 +1,4 @@
-import { add, sub, mul, div, calculation } from '@/implementation'
+import { add, sub, mul, div, pow, calculation, type CalculationOperator } from '@/implementation'
 import { BASE_SPECIFIER, Constants } from '@/constants'
 import { libraryPlugin } from '@/plugin'
 import { BaseNode, ExampleNode, IExampleNode } from '@/nontrivial'
@@ -11,6 +11,7 @@ export {
 	div,
 	mul,
 	sub,
+	pow,
 
 	BaseNode,
 	ExampleNode,
@@ -26,4 +27,5 @@ export {
 export type {
 	IExampleNode,
 	SomeGenericType,
+	CalculationOperator,
 }

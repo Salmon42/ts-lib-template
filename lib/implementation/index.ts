@@ -2,8 +2,14 @@ import { add } from './add'
 import { div } from './div'
 import { mul } from './mul'
 import { sub } from './sub'
-import { calculation } from './calculation'
+import { pow } from './pow'
+import { calculation, type CalculationOperator } from './calculation'
+
 
 export {
-	add, div, mul, sub, calculation,
+	add, div, mul, sub, pow, calculation,
+}
+
+export type {
+	CalculationOperator,
 }

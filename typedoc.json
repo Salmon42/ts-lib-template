@@ -1,0 +1,6 @@
+{
+	"entryPoints": [
+		"lib/main.ts"
+	],
+	"out": "docs"
+}

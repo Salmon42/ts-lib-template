@@ -1,7 +1,6 @@
 /** @type {import('@types/eslint').ESLint.ConfigData} */
 module.exports = {
 	root: true,
-
 	env: {
 		browser: true,
 	},
@@ -12,9 +11,13 @@ module.exports = {
 		sourceType: 'module'
 	},
 	ignorePatterns: [
+		// Ignored folders
+		'dist',
+		"docs",
+
+		// Ignored files
 		'.eslintrc.cjs',
 		'types/vite-env.d.ts',
-		'dist',
 	],
 
 	plugins: [

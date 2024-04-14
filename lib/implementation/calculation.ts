@@ -5,7 +5,7 @@ import { div } from './div'
 import { mul } from './mul'
 import { sub } from './sub'
 
-type Operator = '+' | '-' | '*' | '/'
+export type CalculationOperator = '+' | '-' | '*' | '/'
 
 /**
  * Calculation docs
@@ -15,7 +15,7 @@ type Operator = '+' | '-' | '*' | '/'
  * @param operator - our operator
  * @returns result
  */
-export const calculation = (first: number, second: number, operator: Operator) => {
+export const calculation = (first: number, second: number, operator: CalculationOperator) => {
 	if (second > first) {
 		console.info('calculation: first is bigger than second')
 	}

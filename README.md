@@ -61,3 +61,8 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 * Add Vitest
 	* `yarn add -D vitest`
 	* https://vitest.dev/guide/
+
+* Add TypeDoc
+	* `yarn add -D typedoc`
+	* https://typedoc.org/
+	* https://typedoc.org/guides/installation/#typedoc.json
