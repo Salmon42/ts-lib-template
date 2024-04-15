@@ -1,6 +1,7 @@
 # Changelog
 
 * ...
+* `0.6.1` Created a way to squash multiple markdowns into the index page of TypeDoc
 * `0.6.0` Boosted TypeDoc capabilities - added many plugins
 * `0.5.1` Try combination JS implementation with `d.ts` declaration file
 * `0.5.0` Milestone checkmark - working base TypeDoc
