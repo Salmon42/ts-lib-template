@@ -17,7 +17,6 @@
 * Create `vite.config.ts`
 
 * Add dependencies:
-	* dev `ts-node`
 	* dev `@types/node`
 	* dev [`vite-plugin-dts`](https://www.npmjs.com/package/vite-plugin-dts)
 

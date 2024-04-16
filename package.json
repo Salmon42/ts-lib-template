@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-template",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "private": true,
   "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",
   "author": {
@@ -14,7 +14,7 @@
     "deploy": "node --no-warnings scripts/run-publish.js",
 
 		"doc": "yarn doc:pre && typedoc && yarn doc:post",
-		"doc:pre": "node --no-warnings scripts/run-prepare-doc.js",
+		"doc:pre": "node --no-warnings scripts/run-doc.js",
 		"doc:post": "rm -rf tmp/",
 
     "lint": "eslint .",
@@ -33,7 +33,6 @@
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "eslint": "8.57.0",
-    "ts-node": "^10.9.2",
     "typedoc": "^0.25.13",
 		"typedoc-plugin-coverage": "^3.1.0",
 		"typedoc-plugin-extras": "^3.0.0",

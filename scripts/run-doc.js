@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { print } from './code/functions.js'
+import { print } from './utils/functions.js'
 
 /** @param {string} filename */
 const toggledMarkdown = (filename) => {

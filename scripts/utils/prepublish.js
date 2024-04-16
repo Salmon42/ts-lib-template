@@ -2,13 +2,10 @@
 // Prepublish script.
 // Copies required files into /dist folder after building the library
 //
-
 import fs from 'fs'
 const cwd = process.cwd()
 
-/**
- * @param {string} filename
- */
+/** @param {string} filename */
 const copyFile = (filename) => {
 	const srcpath = `${cwd}/${filename}`
 	const destpath = `${cwd}/dist/${filename}`
@@ -16,9 +13,7 @@ const copyFile = (filename) => {
 	console.info(`> Copied [${filename}]`)
 }
 
-/**
- * @returns {boolean} true if success
- */
+/** @returns {boolean} true if success */
 export const prepublish = () => {
 	if (!fs.existsSync(`${cwd}/dist`)) {
 		console.info('> The /dist folder does not exist. Use \'yarn build\' first.')
