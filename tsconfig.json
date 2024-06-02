@@ -22,9 +22,11 @@
     /**/
     "paths": {
       "@/*": ["./lib/*"],
+			"#/*": ["./src/*"]
     }
   },
   "include": [
+		"src",
     "lib",
     "tests",
     "scripts",

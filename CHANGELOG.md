@@ -1,6 +1,7 @@
 # Changelog
 
 * ...
+* `0.8.0` Added `/src` directory for any temporary devtesting sources with `index.html` to run `vite dev`
 * `0.7.0` Refined scripts
 * `0.6.1` Created a way to squash multiple markdowns into the index page of TypeDoc
 * `0.6.0` Boosted TypeDoc capabilities - added many plugins
