@@ -1,29 +1,13 @@
 import fs from 'fs'
 import { print } from './utils/functions.js'
-
-/** @param {string} filename */
-const toggledMarkdown = (filename) => {
-	console.info('> Adding', filename)
-
-	// Extract the first line (# title) and replace it
-	const mdlines = fs.readFileSync(filename, 'utf-8').split('\n')
-	mdlines[0] = '~\n\n'
-	const md = mdlines.join('\n')
-
-	return `<details>
-	<summary><b>${filename}</b></summary>
-
-	${md}
-	</details>
-	<br>`
-}
+import { md2html } from './utils/md2html.js'
 
 print('Packing README and CHANGELOG into single file for TypeDoc...')
 
 const imagelink = 'Documentation Status: ![image](./coverage.svg)\n<hr/><br>'
-const readme = toggledMarkdown('README.md')
-const changelog = toggledMarkdown('CHANGELOG.md')
-const scaffolding = toggledMarkdown('SCAFFOLDING.md')
+const readme = md2html('README.md')
+const changelog = md2html('readme/CHANGELOG.md')
+const scaffolding = md2html('readme/SCAFFOLDING.md')
 const content = `${imagelink}\n\n${readme}\n\n${changelog}\n\n${scaffolding}`
 
 if (!fs.existsSync('tmp')) fs.mkdirSync('tmp')

@@ -3,7 +3,7 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 
 ---
 
-### Scripts
+## Scripts
 
 * `yarn`: Installs dependencies
 * `yarn dev`: Runs minimal `index.html` page for temporary dev-tests
@@ -14,11 +14,11 @@ Template for TypeScript/Vite library available for consumption by SPA's or web a
 * `yarn deploy`: Manually performs `npm publish` with some preparation steps
 * `yarn purge`: In case of things breaking, remove all installed/generated files/folders
 
-### Used Dependencies
+## Used Dependencies
 
-* -
+* None
 
-### Used Dev Dependencies
+## Used Dev Dependencies
 
 * TypeScript
 * ESLint (base, typescript, stylistic)

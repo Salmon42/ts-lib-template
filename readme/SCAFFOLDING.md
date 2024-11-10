@@ -1,4 +1,4 @@
-# Scaffolding
+## Scaffolding
 
 > Documentation of the steps of what was used for scaffolding this template.
 ---
