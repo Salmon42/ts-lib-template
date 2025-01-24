@@ -2,8 +2,10 @@
 // Prepublish script.
 // Copies required files into /dist folder after building the library
 //
+
 import fs from 'fs'
 const cwd = process.cwd()
+
 
 /** @param {string} filename */
 const copyFile = (filename) => {

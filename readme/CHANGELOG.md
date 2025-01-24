@@ -1,6 +1,7 @@
 ## Changelog
 
 * ...
+* `0.9.1` Cosmetic changes
 * `0.9.0` Slightly improved typedoc index generation from markdowns
 * `0.8.0` Added `/src` directory for any temporary devtesting sources with `index.html` to run `vite dev`
 * `0.7.0` Refined scripts

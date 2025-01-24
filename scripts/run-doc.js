@@ -2,6 +2,7 @@ import fs from 'fs'
 import { print } from './utils/functions.js'
 import { md2html } from './utils/md2html.js'
 
+
 print('Packing README and CHANGELOG into single file for TypeDoc...')
 
 const imagelink = 'Documentation Status: ![image](./coverage.svg)\n<hr/><br>'
