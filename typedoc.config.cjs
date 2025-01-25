@@ -20,7 +20,6 @@ module.exports = {
 		'Example': 'https://google.com'
 	},
 
-
 	plugin: [
 		'typedoc-plugin-coverage', 				// https://www.npmjs.com/package/typedoc-plugin-coverage
 		'typedoc-plugin-particles', 			// https://www.npmjs.com/package/typedoc-plugin-particles

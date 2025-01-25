@@ -1,6 +1,7 @@
 ## Changelog
 
 * ...
+* `1.1.0`: Updated `package.json` devDependencies versions
 * `1.0.0`: Updated markdowns, final touches, marked as ready for public
 * `0.10.0`: Rewritten scripts to TypeScript, utilizing `tsx` node runtime
 * `0.9.1`: Cosmetic changes
