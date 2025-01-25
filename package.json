@@ -3,7 +3,7 @@
   "version": "1.0.0",
 	"license": "MIT",
   "private": true,
-  "description": "Opinionated template for quickstart development of TypeScript/Vite library for SPA's or web apps",
+  "description": "Opinionated template for quickstart development of TypeScript/Vite library for SPA's or other Node projects",
   "author": {
     "name": "Andrej Hučko",
     "email": "hucko.dev@gmail.com",

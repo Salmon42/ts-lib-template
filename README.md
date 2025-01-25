@@ -1,5 +1,5 @@
 # ts-lib-template
-Opinionated template for quickstart development of TypeScript/Vite library for SPA's or web apps.
+Opinionated template for quickstart development of TypeScript/Vite library for SPA's or other Node projects.
 
 ---
 
