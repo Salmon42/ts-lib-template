@@ -24,6 +24,7 @@ const md2html = (filename: string): string => {
 	<br>`
 }
 
+// ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
 
 info('Packing README and CHANGELOG into single file for TypeDoc...')
 

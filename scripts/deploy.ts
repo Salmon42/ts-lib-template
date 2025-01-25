@@ -1,14 +1,9 @@
-//
-// ...
-//
-
 import { copyFileSync, existsSync } from 'node:fs'
 import { sep } from 'node:path'
 import { execSync } from 'child_process'
 import { useLogger } from './utils/logger'
 import packageJson from '../package.json'
 
-// ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
 
 const { info, error, success } = useLogger('Deploy')
 const cwd = process.cwd()
@@ -26,7 +21,6 @@ const copyFile = (filename: string, subdirectory?: string) => {
 		process.exit(1)
 	}
 }
-
 
 // ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
 
