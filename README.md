@@ -88,3 +88,5 @@ Copyright (C) 2025-present, Andrej Hučko
 <p align="center">
 <b>If you like this template, don't hesitate to give this repository a star! 😊</b>
 </p>
+
+* ~
