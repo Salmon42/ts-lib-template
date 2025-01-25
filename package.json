@@ -1,11 +1,12 @@
 {
   "name": "ts-lib-template",
-  "version": "0.10.0",
+  "version": "1.0.0",
+	"license": "MIT",
   "private": true,
-  "description": "Template for TypeScript/Vite library available for consumption by SPA's or web apps",
+  "description": "Opinionated template for quickstart development of TypeScript/Vite library for SPA's or web apps",
   "author": {
     "name": "Andrej Hučko",
-    "email": "andrejhucko@pm.me",
+    "email": "hucko.dev@gmail.com",
     "url": "https://github.com/Salmon42"
   },
   "scripts": {

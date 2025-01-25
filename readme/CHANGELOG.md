@@ -1,6 +1,7 @@
 ## Changelog
 
 * ...
+* `1.0.0`: Updated markdowns, final touches, marked as ready for public
 * `0.10.0`: Rewritten scripts to TypeScript, utilizing `tsx` node runtime
 * `0.9.1`: Cosmetic changes
 * `0.9.0`: Slightly improved typedoc index generation from markdowns
