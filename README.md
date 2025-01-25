@@ -5,14 +5,6 @@ Opinionated template for quickstart development of TypeScript/Vite library for S
 
 The repository is themed as template, which means that anyone can create a new repository based on this one and start off with their own software building. As previously said, it is opinionated in terms of directory structure and used libraries to create a basic ready-to-publish [NPM](https://npmjs.com) package.
 
-The opinionated stack:
-* [**Vite**](https://vite.dev/)
-* [**TypeScript**](https://www.typescriptlang.org/)
-* [**ESLint**](https://eslint.org/)
-* [**TypeDoc**](https://typedoc.org/)
-* [**Vitest**](https://vitest.dev/)
-* [**tsx**](https://tsx.is/)
-
 ---
 
 
@@ -24,6 +16,19 @@ The most straightforward way is to use this template directly from GitHub websit
 You may as well simply download this repository as a zip file and paste it into your existing repository.
 
 Otherwise you can just get some inspiration by taking any parts of the code you found interesting :)
+
+
+## Tech Stack
+* [**Vite**](https://vite.dev/)
+	* Bundler tool. Held at version ^5, waiting for stabilizing new v6
+* [**TypeScript**](https://www.typescriptlang.org/)
+	* Held at version ^5.4.0 due to TypeDoc peer dep
+* [**ESLint**](https://eslint.org/) (base, typescript, stylistic)
+	* Main package held at version ^8 due to waiting for stabilizing new v9
+* [**TypeDoc**](https://typedoc.org/)
+	* Successor of JSDoc, who was inspired by JavaDoc/Doxygen HTML generated documentation
+* [**Vitest**](https://vitest.dev/)
+* [**tsx**](https://tsx.is/) - TS Node runtime for scripts
 
 
 ## Folder structure
@@ -63,17 +68,16 @@ This template contains some premade scripts, which is meant as a suggestion to e
 	* You can change the procedure's behavior in `scripts/deploy.ts`, although that should not be necessary. This script eventuall calls `npm publish`, you can learn more about it on https://docs.npmjs.com/cli/v9/commands/npm-publish
 
 
-## Used Dependencies
-* None
-
-
-## Used Dev Dependencies
-* TypeScript. Held at version ^5.4.0 due to TypeDoc peer dep
-* ESLint (base, typescript, stylistic). Main package held at version ^8 due to waiting for stabilizing new v9
-* TypeDoc with plugins
-* Vite. Held at version ^5, waiting for stabilizing new v6
-* Vitest
-* TSX - TS Node runtime for scripts
+## What to edit first
+* Remove all dummy code from `/lib`
+* If you don't wish to use any code within `/src`, you can delete it along with `index.html` in root of the project
+* `tests/*` - Delete tests sources that are tied to dummy `/lib` implementation
+* `README.md` - This readme
+* `package.json` - Edit `name`, `version`, and many more fields according to your needs
+* `typedoc.config.cjs` - Edit package name and change/delete navigation links
+* `readme/SCAFFOLDING.md` - You can delete this. If you proceed to do so, edit `sripts/doc.ts`, so that the script will not attempt to concatenate that markdown file into generated HTML documentation.
+* `readme/CHANGELOG.md` - Clear contents or delete (if you delete, don't forget with editing step in the script)
+* `LICENSE` - Edit or delete
 
 
 ## License
