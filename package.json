@@ -1,20 +1,26 @@
 {
   "name": "ts-lib-template",
-  "version": "1.1.0",
-	"license": "MIT",
+  "version": "1.2.0",
+  "license": "MIT",
   "private": true,
   "description": "Opinionated template for quickstart development of TypeScript/Vite library for SPA's or other Node projects",
+	"homepage": "https://salmon42.github.io/ts-lib-template",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Salmon42/ts-lib-template.git"
+	},
   "author": {
     "name": "Andrej Hučko",
     "email": "hucko.dev@gmail.com",
     "url": "https://github.com/Salmon42"
   },
+
   "scripts": {
     "build": "tsc && vite build",
-    "clean": "tsx --tsconfig scripts/tsconfig.json scripts/clean.ts",
+    "clean": "tsx scripts/clean.ts",
     "dev": "vite",
-    "deploy": "tsx --tsconfig scripts/tsconfig.json scripts/deploy.ts",
-    "doc": "tsx --tsconfig scripts/tsconfig.json scripts/doc.ts",
+    "deploy": "tsx scripts/deploy.ts",
+    "doc": "tsx scripts/doc.ts",
     "lint": "eslint .",
     "test": "vitest"
   },
@@ -29,6 +35,7 @@
     "@typescript-eslint/parser": "7.6.0",
     "eslint": "8.57.0",
     "jsdom": "24.0.0",
+    "node-pretty-logger": "^1.0.5",
     "tsx": "^4.19.2",
     "typedoc": "0.25.13",
     "typedoc-plugin-coverage": "3.1.0",

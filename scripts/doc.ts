@@ -1,6 +1,6 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'fs'
 import { execSync } from 'child_process'
-import { useLogger } from './utils/logger.js'
+import { useLogger } from 'node-pretty-logger'
 import { rmrf } from './utils/remover.js'
 
 

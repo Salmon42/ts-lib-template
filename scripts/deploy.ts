@@ -1,7 +1,7 @@
 import { copyFileSync, existsSync } from 'node:fs'
 import { sep } from 'node:path'
 import { execSync } from 'child_process'
-import { useLogger } from './utils/logger'
+import { useLogger } from 'node-pretty-logger'
 import packageJson from '../package.json'
 
 

@@ -1,5 +1,5 @@
 import { rmSync } from 'node:fs'
-import type { LoggerFunction } from './logger'
+import type { LoggerFunction } from 'node-pretty-logger'
 
 
 /**

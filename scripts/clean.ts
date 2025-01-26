@@ -1,4 +1,4 @@
-import { useLogger } from './utils/logger'
+import { useLogger } from 'node-pretty-logger'
 import { rmrf } from './utils/remover'
 
 const { info, success, error } = useLogger('Cleaner')
